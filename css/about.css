@@ -1,0 +1,99 @@
+section {
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.about-section {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+}
+
+.about-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-intro h1 {
+  font-size: 36px;
+  color: #3A581b;
+  margin-bottom: 10px;
+}
+
+.about-intro p {
+  font-size: 18px;
+  color: #666;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.mission-vision {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.mission,
+.vision,
+.values,
+.history {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.mission h2,
+.vision h2 {
+  font-size: 24px;
+  color: #3A581b;
+  margin-bottom: 10px;
+}
+
+.mission p,
+.vision p,
+.values p,
+.history p {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  text-align: justify;
+}
+
+.history h2,
+.values h2 {
+  font-size: 24px;
+  color: #3A581b;
+  margin-bottom: 15px;
+}
+
+.values ul {
+  font-size: 16px;
+  color: #333;
+  text-align: justify;
+}
+
+.values ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.values li {
+  margin-bottom: 10px;
+}
+
+.about-images {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.about-img {
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
